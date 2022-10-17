@@ -1,0 +1,10 @@
+.clasCont {
+  display: grid;
+  grid-template-columns: 250px auto;
+  gap: 25px;
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 80px auto;
+    // gap: 25px;
+  }
+}
